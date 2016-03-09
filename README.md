@@ -1,6 +1,8 @@
 React presentation tool
 =================================
 
+Demo: [here](http://royklopper.github.io/react-presentation)
+
 This is a small example that demonstrates rendering components based
 on URLs with `react-router` as well as connecting them to Redux state.
 
@@ -11,6 +13,7 @@ easy component creation and bootstrap-sass for the theming.
 Resources could be used more sparse (such as bootstrap components / scripts)
 
 The project uses webpack to package and transpile all resources.
+
 
 **To run, follow these steps:**
 
