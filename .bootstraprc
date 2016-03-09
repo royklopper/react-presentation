@@ -1,0 +1,8 @@
+{
+  "bootstrapVersion": 3,
+  "bootstrapCustomizations": "./src/css/variables.scss",
+  "appStyles": "./src/css/app.scss",
+  "styleLoaders": ["style", "css", "sass"],
+  "styles": true,
+  "scripts": true
+}

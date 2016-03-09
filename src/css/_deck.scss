@@ -1,0 +1,36 @@
+
+.intro,
+.deck {
+  display: table;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+.deck {
+  padding: 3rem;
+}
+
+.intro {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.deck__start {
+  margin-right: 1rem;
+}
+
+.deck__slide {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.deck__title {
+  text-align: center;
+}
+
+.deck--teaser {
+  text-align: center;
+  vertical-align: middle;
+}

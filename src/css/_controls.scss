@@ -1,0 +1,15 @@
+
+.controls {
+  float: none;
+  text-align: center;
+  font-size: 14px !important;
+}
+
+.controls__state {
+  display: inline-block;
+  margin: 0 $padding-large-horizontal * 1.5;
+}
+
+.controls__control {
+  margin: 0 $padding-base-horizontal;
+}

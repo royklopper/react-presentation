@@ -1,0 +1,27 @@
+
+html,
+body {
+  height: 100%;
+}
+body {
+  padding: 70px 0;
+  background-color: #eeeeee;
+}
+
+.fullscreen {
+  padding: 0;
+
+  .hide-on-fullscreen {
+    display: none;
+  }
+}
+
+.wrapper {
+  display: table;
+  height: 100%;
+  width: 100%;
+}
+
+.content {
+  display: table-row;
+}
