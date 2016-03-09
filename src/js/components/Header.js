@@ -103,7 +103,7 @@ class Header extends React.Component {
       <Navbar fluid fixedTop className="hide-on-fullscreen">
         <Navbar.Header>
           <Navbar.Brand>
-            <Link to="/">React-Bootstrap</Link>
+            <Link to="/">Present Yourself!</Link>
           </Navbar.Brand>
           <Navbar.Toggle />
         </Navbar.Header>
