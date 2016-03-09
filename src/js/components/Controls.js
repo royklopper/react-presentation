@@ -97,32 +97,32 @@ class Controls extends React.Component {
   render() {
     /* @type {Object} */
     const deleteSlideTooltip = (
-      <Tooltip>Delete the current slide</Tooltip>
+      <Tooltip id="a-delete-slide">Delete the current slide</Tooltip>
     )
 
     /* @type {Object} */
     const toggleEditModeTooltip = (
-      <Tooltip>Toggle edit mode</Tooltip>
+      <Tooltip id="a-edit-slide">Toggle edit mode</Tooltip>
     )
 
     /* @type {Object} */
     const goToBeginTooltip = (
-      <Tooltip>View the first slide</Tooltip>
+      <Tooltip id="nav-first-slide">View the first slide</Tooltip>
     )
 
     /* @type {Object} */
     const goToPrevTooltip = (
-      <Tooltip>View the previous slide</Tooltip>
+      <Tooltip id="nav-prev-slide">View the previous slide</Tooltip>
     )
 
     /* @type {Object} */
     const goToNextTooltip = (
-      <Tooltip>View the next slide</Tooltip>
+      <Tooltip id="nav-next-slide">View the next slide</Tooltip>
     )
 
     /* @type {Object} */
     const goToEndTooltip = (
-      <Tooltip>View the last slide</Tooltip>
+      <Tooltip id="nav-last-slide">View the last slide</Tooltip>
     )
 
     return (

@@ -91,12 +91,12 @@ class Header extends React.Component {
   render() {
     /* @type {Object} */
     const goFullscreenTooltip = (
-      <Tooltip>View your presentation in fullscreen</Tooltip>
+      <Tooltip id="a-go-fullscreen">View your presentation in fullscreen</Tooltip>
     )
 
     /* @type {Object} */
     const createSlideTooltip = (
-      <Tooltip>Create a new slide</Tooltip>
+      <Tooltip id="a-create-slide">Create a new slide</Tooltip>
     )
 
     return (

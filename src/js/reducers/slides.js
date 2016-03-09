@@ -29,7 +29,6 @@ export default (state = initialState, action) => {
     case EDIT_SLIDE:
       return state.map(slide => {
         if (slide.id == parseInt(action.id)) {
-          console.log(action)
           slide.title       = action.title
           slide.description = action.description,
           slide.img         = action.img

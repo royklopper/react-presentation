@@ -2,7 +2,7 @@
 import React, { Component, PropTypes }  from 'react'
 import Button                           from 'react-bootstrap/lib/Button'
 import Input                            from 'react-bootstrap/lib/Input'
-import classnames                       from 'classnames'
+
 class Form extends Component {
   /**
    * @param  {Object} props

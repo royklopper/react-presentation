@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "license": "MIT",
   "dependencies": {
-    "classnames": "^2.2.3",
     "jquery": "^2.2.1",
     "react": "^0.14.7",
     "react-bootstrap": "^0.28.3",
@@ -52,7 +51,7 @@
   },
   "scripts": {
     "start": "webpack-dev-server --history-api-fallback --no-info --open",
-    "build": "cross-env NODE_ENV=production webpack --config webpack.config.js --optimize-minimize --progress --profile --colors && cp src/index.html dist/",
+    "build": "cross-env NODE_ENV=production webpack --config webpack-production.config.js --optimize-minimize --progress --profile --colors",
     "test": "cross-env NODE_ENV=test mocha --recursive --compilers js:babel-register --require ./test/setup.js"
   }
 }
