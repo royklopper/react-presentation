@@ -139,7 +139,7 @@ class Controls extends React.Component {
             </Navbar.Link>
           </OverlayTrigger>
           <span className="controls__state">
-            Showing slide {this.props.index + 1} / {this.props.slides.length}
+            <span className="hidden-sm hidden-xs">Showing slide </span>{this.props.index + 1} / {this.props.slides.length}
           </span>
           <OverlayTrigger placement="top" overlay={goToBeginTooltip}>
             <LinkContainer to={`/slides/${this.getFirstId()}`}>
