@@ -52,7 +52,7 @@
   },
   "scripts": {
     "start": "webpack-dev-server --history-api-fallback --no-info --open",
-    "build": "webpack --config webpack.config.js --optimize-minimize --progress --profile --colors && cp src/index.html dist/",
+    "build": "cross-env NODE_ENV=production webpack --config webpack.config.js --optimize-minimize --progress --profile --colors && cp src/index.html dist/",
     "test": "cross-env NODE_ENV=test mocha --recursive --compilers js:babel-register --require ./test/setup.js"
   }
 }
