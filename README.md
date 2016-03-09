@@ -1,7 +1,7 @@
 React presentation tool
 =================================
 
-Demo: [here](http://royklopper.github.io/react-presentation)
+Demo: [here](http://react-presentation-demo.todiefor.nl)
 
 This is a small example that demonstrates rendering components based
 on URLs with `react-router` as well as connecting them to Redux state.
